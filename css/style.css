@@ -1,0 +1,81 @@
+body{
+    font-family: 'Redressed', cursive;
+}
+.banner-container{
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+    
+.banner{
+    background-color: black;
+    opacity: .7;
+    color: white;
+}
+.navbar-container{
+    top:0;
+    background-color: black;
+    opacity: .9;
+    position: sticky;
+    z-index: 2;
+
+}
+.about-container{
+    background-color: black;
+    
+}
+.education-container{
+    background-color: chocolate;
+}
+.circle{
+    height: 150px;
+    width:  150px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.project-container{
+    background-color: darkslategray;
+}
+.portfolio-container{
+    background-color: black;
+    
+}
+zoom {
+    transition: transform .2s; /* Animation */
+   
+  }
+  
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    padding: 10%;
+}
+.contact-container{
+    background-color: darkslategray;
+}
+.contact{
+    font-size: 72px;
+}
+.inner-form{
+    background-color: darkslategray;
+}
+.footer-container{
+    background-color: black;
+}
+.circule-footer{
+    height: 60px;
+    width:60px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    color:coral;
+    text-align: center;
+
+
+}
+.circule-footer:hover{
+    background-color:darkslategray;
+}
